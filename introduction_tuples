@@ -1,0 +1,172 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "200\n",
+      "50\n"
+     ]
+    }
+   ],
+   "source": [
+    "#introduction_tuples\n",
+    "#How to declare a tuple..!!\n",
+    "#tuple can be created by using parenthasis\n",
+    "\n",
+    "dimensions= (200,50)\n",
+    "print(dimensions[0])\n",
+    "print(dimensions[1])\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "200\n",
+      "50\n"
+     ]
+    }
+   ],
+   "source": [
+    "dimensions = (200,50)\n",
+    "\n",
+    "#Note: tuple object does not support item assignment\n",
+    "\n",
+    "for dimension in dimensions:\n",
+    "    print(dimension)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(10, 20, 30)\n",
+      "(30, 40, 50)\n"
+     ]
+    }
+   ],
+   "source": [
+    "dimensions1=(10,20,30) # old declaration\n",
+    "\n",
+    "print(dimensions1)\n",
+    "\n",
+    "dimensions1= (30,40,50) # new declaration\n",
+    "\n",
+    "print(dimensions1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\n",
+    "triangle = (4,5,6)\n",
+    "print(\"\\nmodified values:\")\n",
+    "\n",
+    "for angle in triangle:\n",
+    "    print(angle)\n",
+    "    \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Audi\n",
+      "BMW\n",
+      "Benz\n",
+      "Toyota\n"
+     ]
+    }
+   ],
+   "source": [
+    "#if condition_test:\n",
+    "\n",
+    "#1.if my car is bmw then i want to be in uppercase -print\n",
+    "\n",
+    "#2.if not bmw any other cr then i want it to be title case -print \n",
+    "\n",
+    "cars = ['audi','bmw','benz','toyota']\n",
+    "\n",
+    "for car in cars:\n",
+    "    if car == 'bmw':\n",
+    "        print(car.upper())\n",
+    "    else:\n",
+    "        print(car.title())\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "you are not eligible to vote\n"
+     ]
+    }
+   ],
+   "source": [
+    "#1.if the person age is >=18 then - print he is eligible to vote\n",
+    "\n",
+    "#2.if the person age is <18 then - print he is not eligible to vote\n",
+    "\n",
+    "age = 17\n",
+    "\n",
+    "if age >=  18:\n",
+    "    print('you are eligible to vote')\n",
+    "else:\n",
+    "    print('you are not eligible to vote')\n",
+    "    \n",
+    "    \n",
+    "    "
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.6.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
